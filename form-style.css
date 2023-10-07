@@ -18,3 +18,13 @@ h1 {
     border-radius: 10px;
     padding: 20px;
 }
+.resetbtn {
+    background-color: red;
+    color: white;
+    padding: 5px;
+}
+.submit {
+    background-color: green;
+    color: white;
+    padding: 5px;
+}
