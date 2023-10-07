@@ -1,0 +1,19 @@
+body {
+    background-color: rgb(202, 188, 135);
+    font-family: sans-serif;
+    margin: 40px;
+}
+h1 {
+    text-align: center;
+    border: 2px solid white;
+    border-radius: 10px;
+    font-style: italic;
+    margin-left: 400px;
+    margin-right: 400px;
+    padding: 10px;
+}
+header {
+    font-size: 20px;
+    padding: 20px;
+    padding-left: 200px;
+}
