@@ -17,5 +17,135 @@
         </ul>
     </header>
     <br>
+    <form onsubmit="" method="post" target="_blank" autocapitalize="ON">
+        <div class="box-style">
+            <p>ORDER INFORMATION:</p>
+            <div>
+                <label for="name" class="input-titles">NAME:</label>
+                <br>
+                <input type="text" id="name" placeholder="name">
+            </div>
+            <br>
+            <div>
+                <input type="radio" name="where" value="here" id="here">
+                <label for="here">Here</label>
+                <br>
+                <input type="radio" name="where" value="go" id="go">
+                <label for="go">To Go</label>
+            </div>
+        </div>
+        <br>
+        <div class="box-style">
+            <p>SANDWICHES:</p>
+            <div>
+                <label for="monday" class="input-titles">MONDAY:</label>
+                <br>
+                <input type="radio" name="monday" value="tomato" id="tomato">
+                <label for="tomato">Tomato Mozzarella</label>
+                <br>
+                <input type="radio" name="monday" value="chicken" id="chicken">
+                <label for="chicken">Chicken Salad</label>
+            </div>
+            <br>
+            <div>
+                <label for="tuesday" class="input-titles">TUESDAY:</label>
+                <br>
+                <input type="radio" name="tuesday" value="greek" id="greek">
+                <label for="greek">Greek Salad Wrap</label>
+                <br>
+                <input type="radio" name="tuesday" value="toto" id="toto">
+                <label for="toto">Toto Wrap</label>
+            </div>
+            <br>
+            <div>
+                <label for="wednesday" class="input-titles">WEDNESDAY:</label>
+                <br>
+                <input type="radio" name="wednesday" value="pepper" id="pepper">
+                <label for="pepper">Red Pepper Hummus</label>
+                <br>
+                <input type="radio" name="wednesday" value="turkey" id="turkey">
+                <label for="turkey">Roested Turkey</label>
+            </div>
+            <br>
+            <div>
+                <label for="thursday" class="input-titles">THURSDAY:</label>
+                <br>
+                <input type="radio" name="thursday" value="Carrot-Ginger" id="Carrot-Ginger">
+                <label for="Carrot-Ginger">Carrot-Ginger Hummus Wrap</label>
+                <br>
+                <input type="radio" name="thursday" value="egg" id="egg">
+                <label for="egg">Egg Salad</label>
+            </div>
+            <br>
+            <div>
+                <label for="friday" class="input-titles">FRIDAY:</label>
+                <br>
+                <input type="radio" name="friday" value="dado" id="dado">
+                <label for="dado">Dado Wrap</label>
+                <br>
+                <input type="radio" name="friday" value="tuna" id="tuna">
+                <label for="tuna">Tuna Salad</label>
+            </div>
+            <br>
+            <hr>
+            <br>
+            <input type="checkbox" value="free" id="free">
+            <label for="free"> Gluten Free Bread (75$extra)</label>
+        </div>
+        <br>
+        <div class="box-style">
+            <p>SNACKS and DRINKS:</p>
+            <div>
+                <label for="snack" class="input-titles">SNACKS:</label>
+                <br>
+                <input type="radio" name="snack" value="apple" id="apple">
+                <label for="apple">Apple</label>
+                <br>
+                <input type="radio" name="snack" value="banana" id="banana">
+                <label for="banana">Banana</label>
+                <br>               
+                <input type="radio" name="snack" value="potato" id="potato">
+                <label for="potato">Potato Chips</label>
+            </div>
+            <br>
+            <div>
+                <label for="drink" class="input-titles">DRINKS:</label>
+                <br>
+                <select name="level" id="level">
+                    <optgroup label="Black Tea">
+                        <option value="0">Hot Black Tea - Keemunn</option>
+                        <option value="1">Hot Black Tea - Deacf Keemunn</option>
+                        <option value="2">Iced Black Tea - Keemunn</option>
+                        <option value="3">Iced Black Tea - Deacf Keemunn</option>
+                    </optgroup>
+                    <optgroup label="Green Tea">
+                        <option value="0">Hot Green Tea - Sencha</option>
+                        <option value="1">Hot Green Tea - Decaf</option>
+                        <option value="2">Iced Green Tea - Sencha</option>
+                        <option value="3">Iced Green Tea - Decaf</option>
+                    </optgroup>
+                    <optgroup label="Coffee">
+                        <option value="0">Hot Coffee</option>
+                        <option value="1">Hot Decaf Coffee</option>
+                        <option value="2">Iced Coffee</option>
+                        <option value="3">Iced Decaf Coffee</option>
+                    </optgroup>
+                    <optgroup label="Bubble Tea (1.50$ extra)">
+                        <option value="0">Bubble Tea</option>
+                    </optgroup>
+                </select>
+            </div>
+            <br>
+            <hr>
+            <br>
+            <input type="checkbox" value="large" id="large">
+            <label for="large">Large Drink (75$extra)</label>
+        </div>
+        <br>
+        <div>
+            <button type="reset" class="resetbtn">RESET</button>
+            <button type="submit" class="submitbtn">PLACE OREDER</button>
+        </div>
+    </form>
 </body>
 </html>
