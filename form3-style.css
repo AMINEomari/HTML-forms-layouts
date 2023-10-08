@@ -1,0 +1,43 @@
+body {
+    background-color: rgb(78, 183, 99);
+    font-family: sans-serif;
+    margin: 50px;
+    margin-left: 400px;
+    margin-right: 400px;
+}
+.big-container {
+    background-color: white;
+    border-radius: 5px;
+    padding: 50px;
+    color: gray;
+}
+h1 {
+    font-size: 30px;
+}
+.form-style {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 50px 50px 50px 50px 150px 50px;
+    gap: 25px;
+}
+.input-style {
+    padding-left: 30px;
+}
+#last-box {
+    padding-left: 30px;
+    padding-bottom: 100px;
+}
+button {
+    background-color: rgb(78, 183, 99);
+    color: white;
+    border: 2px solid rgb(78, 183, 99);
+    border-radius: 5px;
+}
+button:hover {
+    background-color: orange;
+    border: 2px solid orange;
+    cursor: pointer;
+}
+#the-designer {
+    text-align: center;
+}
