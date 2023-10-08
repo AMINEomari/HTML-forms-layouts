@@ -23,7 +23,7 @@ h1 {
 .input-style {
     padding-left: 30px;
 }
-#last-box {
+#message-box {
     padding-left: 30px;
     padding-bottom: 100px;
 }
@@ -38,6 +38,6 @@ button:hover {
     border: 2px solid orange;
     cursor: pointer;
 }
-#the-designer {
+.footer {
     text-align: center;
 }
